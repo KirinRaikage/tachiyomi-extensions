@@ -389,6 +389,7 @@ class MadaraGenerator : ThemeSourceGenerator {
         SingleLang("QueensManga ملكات المانجا", "https://queensmanga.com", "ar", className = "QueensManga", overrideVersionCode = 1),
         SingleLang("Ragnarok Scanlation", "https://ragnarokscanlation.com", "es", className = "RagnarokScanlation"),
         SingleLang("RagnarokScan", "https://ragnarokscan.com", "es"),
+        SingleLang("Raijin Scans", "https://raijinscans.com", "fr", className = "RaijinScans"),
         SingleLang("Rainbow Fairy Scan", "https://rainbowfairyscan.com", "pt-BR"),
         SingleLang("Random Scan", "https://randomscans.com", "pt-BR", overrideVersionCode = 5),
         SingleLang("Random Translations", "https://randomtranslations.com", "en", overrideVersionCode = 1),
