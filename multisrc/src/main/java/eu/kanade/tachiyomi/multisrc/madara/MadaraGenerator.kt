@@ -384,7 +384,7 @@ class MadaraGenerator : ThemeSourceGenerator {
         SingleLang("Shield Manga", "https://shieldmanga.io", "en", overrideVersionCode = 3),
         SingleLang("Shimada Scans", "https://shimadascans.com", "en"),
         SingleLang("Shinigami", "https://shinigami.id", "id", overrideVersionCode = 1),
-        SingleLang("Shirai Scans", "https://shiraiscans.com.br", "pt-BR"),g
+        SingleLang("Shirai Scans", "https://shiraiscans.com.br", "pt-BR"),
         SingleLang("Shooting Star Scans", "https://shootingstarscans.com", "en"),
         SingleLang("ShoujoHearts", "https://shoujohearts.com", "en", overrideVersionCode = 2),
         SingleLang("Sinensis Scan", "https://sinensisscans.com", "pt-BR", pkgName = "sinensis", overrideVersionCode = 5),
