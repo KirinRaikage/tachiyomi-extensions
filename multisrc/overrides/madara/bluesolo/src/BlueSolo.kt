@@ -1,8 +1,6 @@
 package eu.kanade.tachiyomi.extension.fr.bluesolo
 
 import eu.kanade.tachiyomi.multisrc.madara.Madara
-import eu.kanade.tachiyomi.source.model.SManga
-import org.jsoup.nodes.Document
 import java.text.SimpleDateFormat
 import java.util.Locale
 
