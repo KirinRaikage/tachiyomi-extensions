@@ -40,15 +40,16 @@ class MangaFR : MMRCMS("Manga-FR", "https://manga-fr.me", "fr") {
         // Parse date
         val dateText = element.getElementsByClass("date-chapter-title-rtl").text().trim()
 
-        companion object {
-            val dateFormat by lazy {
-                SimpleDateFormat("d MMM. yyyy", Locale.US)
-            }
-        }
         chapter.date_upload = runCatching {
             dateFormat.parse(dateText)?.time
         }.getOrNull() ?: 0L
 
         return chapter
+    }
+
+    companion object {
+        val dateFormat by lazy {
+            SimpleDateFormat("d MMM. yyyy", Locale.US)
+        }
     }
 }
