@@ -9,10 +9,7 @@ import org.jsoup.nodes.Element
 import java.text.SimpleDateFormat
 import java.util.Locale
 
-
 class Bentoscan : MMRCMS("Bentoscan", "https://bentoscan.com", "fr") {
-
-
     override fun imageRequest(page: Page): Request {
         val newHeaders = headersBuilder()
             .set("Referer", IMG_URL)
